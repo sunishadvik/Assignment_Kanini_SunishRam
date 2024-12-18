@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7086EAB2D12C35100288CA4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7086EAA2D12C35100288CA4 /* Common.swift */; };
+		C7086EAD2D12C5EC00288CA4 /* ManagePersonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7086EAC2D12C5EC00288CA4 /* ManagePersonExtension.swift */; };
+		C70DE49A2D129C8B006B0CEF /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DE4992D129C8B006B0CEF /* SplitViewController.swift */; };
+		C70DE49C2D12BF9F006B0CEF /* DoubleExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70DE49B2D12BF9F006B0CEF /* DoubleExtended.swift */; };
+		C72282412D11AB09009D0FB0 /* UIButtonCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722823C2D11AB09009D0FB0 /* UIButtonCornerRadius.swift */; };
+		C72282422D11AB09009D0FB0 /* UIButtonExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722823D2D11AB09009D0FB0 /* UIButtonExtended.swift */; };
+		C72282432D11AB09009D0FB0 /* UIButtonGradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722823E2D11AB09009D0FB0 /* UIButtonGradiant.swift */; };
+		C72282442D11AB09009D0FB0 /* UIButtonBorderWidthAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722823F2D11AB09009D0FB0 /* UIButtonBorderWidthAndColor.swift */; };
+		C72282452D11AB09009D0FB0 /* UIButtonSublayerBorderWidthAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72282402D11AB09009D0FB0 /* UIButtonSublayerBorderWidthAndColor.swift */; };
 		C77341242D113762009E9021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341232D113762009E9021 /* AppDelegate.swift */; };
 		C77341262D113762009E9021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341252D113762009E9021 /* SceneDelegate.swift */; };
-		C77341282D113762009E9021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341272D113762009E9021 /* ViewController.swift */; };
 		C773412B2D113762009E9021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77341292D113762009E9021 /* Main.storyboard */; };
 		C773412E2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C773412C2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodeld */; };
 		C77341302D113763009E9021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C773412F2D113763009E9021 /* Assets.xcassets */; };
@@ -17,6 +25,32 @@
 		C773413E2D113763009E9021 /* Assignment_SunishRam_KaniniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773413D2D113763009E9021 /* Assignment_SunishRam_KaniniTests.swift */; };
 		C77341482D113763009E9021 /* Assignment_SunishRam_KaniniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341472D113763009E9021 /* Assignment_SunishRam_KaniniUITests.swift */; };
 		C773414A2D113763009E9021 /* Assignment_SunishRam_KaniniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341492D113763009E9021 /* Assignment_SunishRam_KaniniUITestsLaunchTests.swift */; };
+		C77341602D113937009E9021 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773415F2D113937009E9021 /* Person.swift */; };
+		C77341632D113B65009E9021 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341622D113B65009E9021 /* PersistentStorage.swift */; };
+		C773416D2D113D94009E9021 /* PersonDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773416C2D113D94009E9021 /* PersonDataRepository.swift */; };
+		C773417A2D11400F009E9021 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341792D11400F009E9021 /* PersonViewModel.swift */; };
+		C773417F2D114551009E9021 /* PersonListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773417E2D114551009E9021 /* PersonListTVC.swift */; };
+		C77341822D114649009E9021 /* PersonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341812D114649009E9021 /* PersonExtension.swift */; };
+		C77341872D116771009E9021 /* PersonListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77341862D116771009E9021 /* PersonListVC.swift */; };
+		C784946C2D1171B80059C990 /* PersonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784946B2D1171B80059C990 /* PersonManager.swift */; };
+		C78494732D1180EA0059C990 /* CDPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494712D1180EA0059C990 /* CDPerson+CoreDataClass.swift */; };
+		C78494742D1180EA0059C990 /* CDPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494722D1180EA0059C990 /* CDPerson+CoreDataProperties.swift */; };
+		C78494772D11876A0059C990 /* AddPersonValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494762D1187690059C990 /* AddPersonValidation.swift */; };
+		C784947F2D1190930059C990 /* BaseClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784947E2D1190930059C990 /* BaseClassVC.swift */; };
+		C784953E2D119B270059C990 /* UITableViewCellExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784948B2D119B260059C990 /* UITableViewCellExtended.swift */; };
+		C78495572D119B270059C990 /* UIViewBorderWidthAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494A92D119B260059C990 /* UIViewBorderWidthAndColor.swift */; };
+		C78495582D119B270059C990 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494AA2D119B260059C990 /* UIViewControllerExtension.swift */; };
+		C78495592D119B270059C990 /* UIViewExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494AB2D119B260059C990 /* UIViewExtended.swift */; };
+		C784955A2D119B270059C990 /* UIviewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494AC2D119B260059C990 /* UIviewCornerRadius.swift */; };
+		C78495672D119B270059C990 /* RSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494C22D119B260059C990 /* RSPickerView.swift */; };
+		C78495872D119B270059C990 /* RSDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494EA2D119B260059C990 /* RSDatePicker.swift */; };
+		C78495882D119B270059C990 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494EC2D119B260059C990 /* String+Utilities.swift */; };
+		C78495CB2D119CF50059C990 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78495CA2D119CF50059C990 /* SharedClass.swift */; };
+		C78F486C2D12670500C0B0F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F486B2D12670500C0B0F8 /* HomeViewController.swift */; };
+		C78F486E2D12673C00C0B0F8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F486D2D12673C00C0B0F8 /* HomeViewModel.swift */; };
+		C78F48742D12685900C0B0F8 /* HomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F48732D12685900C0B0F8 /* HomeExtension.swift */; };
+		C78F48772D12688300C0B0F8 /* HomeTvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F48762D12688300C0B0F8 /* HomeTvc.swift */; };
+		C7B8B9112D134D3500106D4F /* ManagePersonDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B8B9102D134D3500106D4F /* ManagePersonDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +71,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7086EAA2D12C35100288CA4 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C7086EAC2D12C5EC00288CA4 /* ManagePersonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePersonExtension.swift; sourceTree = "<group>"; };
+		C70DE4992D129C8B006B0CEF /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		C70DE49B2D12BF9F006B0CEF /* DoubleExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtended.swift; sourceTree = "<group>"; };
+		C722823C2D11AB09009D0FB0 /* UIButtonCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonCornerRadius.swift; sourceTree = "<group>"; };
+		C722823D2D11AB09009D0FB0 /* UIButtonExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtended.swift; sourceTree = "<group>"; };
+		C722823E2D11AB09009D0FB0 /* UIButtonGradiant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonGradiant.swift; sourceTree = "<group>"; };
+		C722823F2D11AB09009D0FB0 /* UIButtonBorderWidthAndColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBorderWidthAndColor.swift; sourceTree = "<group>"; };
+		C72282402D11AB09009D0FB0 /* UIButtonSublayerBorderWidthAndColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonSublayerBorderWidthAndColor.swift; sourceTree = "<group>"; };
 		C77341202D113762009E9021 /* Assignment_SunishRam_Kanini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_SunishRam_Kanini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77341232D113762009E9021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77341252D113762009E9021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C77341272D113762009E9021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C773412A2D113762009E9021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C773412D2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment_SunishRam_Kanini.xcdatamodel; sourceTree = "<group>"; };
 		C773412F2D113763009E9021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +93,32 @@
 		C77341432D113763009E9021 /* Assignment_SunishRam_KaniniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment_SunishRam_KaniniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77341472D113763009E9021 /* Assignment_SunishRam_KaniniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_SunishRam_KaniniUITests.swift; sourceTree = "<group>"; };
 		C77341492D113763009E9021 /* Assignment_SunishRam_KaniniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_SunishRam_KaniniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C773415F2D113937009E9021 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C77341622D113B65009E9021 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		C773416C2D113D94009E9021 /* PersonDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDataRepository.swift; sourceTree = "<group>"; };
+		C77341792D11400F009E9021 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		C773417E2D114551009E9021 /* PersonListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTVC.swift; sourceTree = "<group>"; };
+		C77341812D114649009E9021 /* PersonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonExtension.swift; sourceTree = "<group>"; };
+		C77341862D116771009E9021 /* PersonListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListVC.swift; sourceTree = "<group>"; };
+		C784946B2D1171B80059C990 /* PersonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonManager.swift; sourceTree = "<group>"; };
+		C78494712D1180EA0059C990 /* CDPerson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPerson+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C78494722D1180EA0059C990 /* CDPerson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPerson+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C78494762D1187690059C990 /* AddPersonValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonValidation.swift; sourceTree = "<group>"; };
+		C784947E2D1190930059C990 /* BaseClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassVC.swift; sourceTree = "<group>"; };
+		C784948B2D119B260059C990 /* UITableViewCellExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtended.swift; sourceTree = "<group>"; };
+		C78494A92D119B260059C990 /* UIViewBorderWidthAndColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorderWidthAndColor.swift; sourceTree = "<group>"; };
+		C78494AA2D119B260059C990 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		C78494AB2D119B260059C990 /* UIViewExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtended.swift; sourceTree = "<group>"; };
+		C78494AC2D119B260059C990 /* UIviewCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIviewCornerRadius.swift; sourceTree = "<group>"; };
+		C78494C22D119B260059C990 /* RSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSPickerView.swift; sourceTree = "<group>"; };
+		C78494EA2D119B260059C990 /* RSDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDatePicker.swift; sourceTree = "<group>"; };
+		C78494EC2D119B260059C990 /* String+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		C78495CA2D119CF50059C990 /* SharedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		C78F486B2D12670500C0B0F8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C78F486D2D12673C00C0B0F8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C78F48732D12685900C0B0F8 /* HomeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeExtension.swift; sourceTree = "<group>"; };
+		C78F48762D12688300C0B0F8 /* HomeTvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTvc.swift; sourceTree = "<group>"; };
+		C7B8B9102D134D3500106D4F /* ManagePersonDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePersonDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +146,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7086EA92D12C34400288CA4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C7086EAA2D12C35100288CA4 /* Common.swift */,
+				C78495CA2D119CF50059C990 /* SharedClass.swift */,
+				C784947E2D1190930059C990 /* BaseClassVC.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C722823B2D11AB09009D0FB0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C722823C2D11AB09009D0FB0 /* UIButtonCornerRadius.swift */,
+				C722823D2D11AB09009D0FB0 /* UIButtonExtended.swift */,
+				C722823E2D11AB09009D0FB0 /* UIButtonGradiant.swift */,
+				C722823F2D11AB09009D0FB0 /* UIButtonBorderWidthAndColor.swift */,
+				C72282402D11AB09009D0FB0 /* UIButtonSublayerBorderWidthAndColor.swift */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		C77341172D113762009E9021 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +191,13 @@
 		C77341222D113762009E9021 /* Assignment_SunishRam_Kanini */ = {
 			isa = PBXGroup;
 			children = (
-				C77341232D113762009E9021 /* AppDelegate.swift */,
-				C77341252D113762009E9021 /* SceneDelegate.swift */,
-				C77341272D113762009E9021 /* ViewController.swift */,
-				C77341292D113762009E9021 /* Main.storyboard */,
-				C773412F2D113763009E9021 /* Assets.xcassets */,
-				C77341312D113763009E9021 /* LaunchScreen.storyboard */,
-				C77341342D113763009E9021 /* Info.plist */,
-				C773412C2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodeld */,
+				C77341562D113893009E9021 /* Application */,
+				C773415D2D113917009E9021 /* Data */,
+				C773415B2D1138F3009E9021 /* Domain */,
+				C77341572D11389F009E9021 /* Presentation */,
+				C773415A2D1138CD009E9021 /* Resources */,
+				C78494802D119B260059C990 /* Utilities */,
+				C77341652D113BDA009E9021 /* CoreDataFileManager */,
 			);
 			path = Assignment_SunishRam_Kanini;
 			sourceTree = "<group>";
@@ -128,6 +217,243 @@
 				C77341492D113763009E9021 /* Assignment_SunishRam_KaniniUITestsLaunchTests.swift */,
 			);
 			path = Assignment_SunishRam_KaniniUITests;
+			sourceTree = "<group>";
+		};
+		C77341562D113893009E9021 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C77341232D113762009E9021 /* AppDelegate.swift */,
+				C77341252D113762009E9021 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C77341572D11389F009E9021 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C77341742D113FAC009E9021 /* Controllers */,
+				C78F486A2D12665400C0B0F8 /* Home */,
+				C78F48692D12664400C0B0F8 /* Splite */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C77341582D1138B1009E9021 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C77341792D11400F009E9021 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C773415A2D1138CD009E9021 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C773412F2D113763009E9021 /* Assets.xcassets */,
+				C77341312D113763009E9021 /* LaunchScreen.storyboard */,
+				C77341342D113763009E9021 /* Info.plist */,
+				C773412C2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C773415B2D1138F3009E9021 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C78494752D1187560059C990 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C773415D2D113917009E9021 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C773415E2D11391F009E9021 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C773415E2D11391F009E9021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C773415F2D113937009E9021 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C77341652D113BDA009E9021 /* CoreDataFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				C784946A2D1171A90059C990 /* PersonManager */,
+				C77341692D113D4F009E9021 /* Repository */,
+				C77341622D113B65009E9021 /* PersistentStorage.swift */,
+			);
+			path = CoreDataFileManager;
+			sourceTree = "<group>";
+		};
+		C77341692D113D4F009E9021 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C78494712D1180EA0059C990 /* CDPerson+CoreDataClass.swift */,
+				C78494722D1180EA0059C990 /* CDPerson+CoreDataProperties.swift */,
+				C773416C2D113D94009E9021 /* PersonDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C77341722D113F67009E9021 /* PersonListVC */ = {
+			isa = PBXGroup;
+			children = (
+				C77341812D114649009E9021 /* PersonExtension.swift */,
+				C773417E2D114551009E9021 /* PersonListTVC.swift */,
+				C77341862D116771009E9021 /* PersonListVC.swift */,
+			);
+			path = PersonListVC;
+			sourceTree = "<group>";
+		};
+		C77341732D113F7A009E9021 /* ManagePersonDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C7B8B9102D134D3500106D4F /* ManagePersonDetailsVC.swift */,
+				C7086EAC2D12C5EC00288CA4 /* ManagePersonExtension.swift */,
+			);
+			path = ManagePersonDetails;
+			sourceTree = "<group>";
+		};
+		C77341742D113FAC009E9021 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C77341292D113762009E9021 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C784946A2D1171A90059C990 /* PersonManager */ = {
+			isa = PBXGroup;
+			children = (
+				C784946B2D1171B80059C990 /* PersonManager.swift */,
+			);
+			path = PersonManager;
+			sourceTree = "<group>";
+		};
+		C78494752D1187560059C990 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				C78494762D1187690059C990 /* AddPersonValidation.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		C78494802D119B260059C990 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7086EA92D12C34400288CA4 /* Common */,
+				C722823B2D11AB09009D0FB0 /* UIButton */,
+				C78495CF2D11A6A50059C990 /* Double */,
+				C784948A2D119B260059C990 /* UITableViewCell */,
+				C78494A82D119B260059C990 /* UIView */,
+				C78494C12D119B260059C990 /* RSPickerView */,
+				C78494E92D119B260059C990 /* RSDatePicker */,
+				C78494EB2D119B260059C990 /* String */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C784948A2D119B260059C990 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C784948B2D119B260059C990 /* UITableViewCellExtended.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		C78494A82D119B260059C990 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C78494A92D119B260059C990 /* UIViewBorderWidthAndColor.swift */,
+				C78494AA2D119B260059C990 /* UIViewControllerExtension.swift */,
+				C78494AB2D119B260059C990 /* UIViewExtended.swift */,
+				C78494AC2D119B260059C990 /* UIviewCornerRadius.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C78494C12D119B260059C990 /* RSPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C78494C22D119B260059C990 /* RSPickerView.swift */,
+			);
+			path = RSPickerView;
+			sourceTree = "<group>";
+		};
+		C78494E92D119B260059C990 /* RSDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C78494EA2D119B260059C990 /* RSDatePicker.swift */,
+			);
+			path = RSDatePicker;
+			sourceTree = "<group>";
+		};
+		C78494EB2D119B260059C990 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C78494EC2D119B260059C990 /* String+Utilities.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		C78495CF2D11A6A50059C990 /* Double */ = {
+			isa = PBXGroup;
+			children = (
+				C70DE49B2D12BF9F006B0CEF /* DoubleExtended.swift */,
+			);
+			path = Double;
+			sourceTree = "<group>";
+		};
+		C78F48692D12664400C0B0F8 /* Splite */ = {
+			isa = PBXGroup;
+			children = (
+				C78F48712D12682300C0B0F8 /* View */,
+				C77341582D1138B1009E9021 /* ViewModel */,
+			);
+			path = Splite;
+			sourceTree = "<group>";
+		};
+		C78F486A2D12665400C0B0F8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C78F48702D12680400C0B0F8 /* ViewModel */,
+				C78F486F2D1267FA00C0B0F8 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C78F486F2D1267FA00C0B0F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C78F486B2D12670500C0B0F8 /* HomeViewController.swift */,
+				C78F48732D12685900C0B0F8 /* HomeExtension.swift */,
+				C78F48762D12688300C0B0F8 /* HomeTvc.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C78F48702D12680400C0B0F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C78F486D2D12673C00C0B0F8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C78F48712D12682300C0B0F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77341732D113F7A009E9021 /* ManagePersonDetails */,
+				C77341722D113F67009E9021 /* PersonListVC */,
+				C70DE4992D129C8B006B0CEF /* SplitViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +587,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77341282D113762009E9021 /* ViewController.swift in Sources */,
+				C784946C2D1171B80059C990 /* PersonManager.swift in Sources */,
+				C78495572D119B270059C990 /* UIViewBorderWidthAndColor.swift in Sources */,
+				C78495872D119B270059C990 /* RSDatePicker.swift in Sources */,
+				C78495582D119B270059C990 /* UIViewControllerExtension.swift in Sources */,
+				C78495882D119B270059C990 /* String+Utilities.swift in Sources */,
+				C77341632D113B65009E9021 /* PersistentStorage.swift in Sources */,
+				C78495672D119B270059C990 /* RSPickerView.swift in Sources */,
+				C7086EAD2D12C5EC00288CA4 /* ManagePersonExtension.swift in Sources */,
+				C78F486C2D12670500C0B0F8 /* HomeViewController.swift in Sources */,
+				C78F48772D12688300C0B0F8 /* HomeTvc.swift in Sources */,
+				C773417A2D11400F009E9021 /* PersonViewModel.swift in Sources */,
+				C70DE49A2D129C8B006B0CEF /* SplitViewController.swift in Sources */,
+				C78495CB2D119CF50059C990 /* SharedClass.swift in Sources */,
+				C784947F2D1190930059C990 /* BaseClassVC.swift in Sources */,
+				C78F486E2D12673C00C0B0F8 /* HomeViewModel.swift in Sources */,
+				C72282432D11AB09009D0FB0 /* UIButtonGradiant.swift in Sources */,
 				C77341242D113762009E9021 /* AppDelegate.swift in Sources */,
+				C773417F2D114551009E9021 /* PersonListTVC.swift in Sources */,
+				C78494732D1180EA0059C990 /* CDPerson+CoreDataClass.swift in Sources */,
+				C72282412D11AB09009D0FB0 /* UIButtonCornerRadius.swift in Sources */,
+				C773416D2D113D94009E9021 /* PersonDataRepository.swift in Sources */,
+				C78494772D11876A0059C990 /* AddPersonValidation.swift in Sources */,
+				C72282422D11AB09009D0FB0 /* UIButtonExtended.swift in Sources */,
+				C77341872D116771009E9021 /* PersonListVC.swift in Sources */,
 				C77341262D113762009E9021 /* SceneDelegate.swift in Sources */,
+				C7B8B9112D134D3500106D4F /* ManagePersonDetailsVC.swift in Sources */,
+				C77341602D113937009E9021 /* Person.swift in Sources */,
+				C72282442D11AB09009D0FB0 /* UIButtonBorderWidthAndColor.swift in Sources */,
+				C784953E2D119B270059C990 /* UITableViewCellExtended.swift in Sources */,
+				C78F48742D12685900C0B0F8 /* HomeExtension.swift in Sources */,
 				C773412E2D113762009E9021 /* Assignment_SunishRam_Kanini.xcdatamodeld in Sources */,
+				C78495592D119B270059C990 /* UIViewExtended.swift in Sources */,
+				C77341822D114649009E9021 /* PersonExtension.swift in Sources */,
+				C784955A2D119B270059C990 /* UIviewCornerRadius.swift in Sources */,
+				C7086EAB2D12C35100288CA4 /* Common.swift in Sources */,
+				C70DE49C2D12BF9F006B0CEF /* DoubleExtended.swift in Sources */,
+				C78494742D1180EA0059C990 /* CDPerson+CoreDataProperties.swift in Sources */,
+				C72282452D11AB09009D0FB0 /* UIButtonSublayerBorderWidthAndColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,18 +808,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XKU3TFWM83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment_SunishRam_Kanini/Info.plist;
+				INFOPLIST_FILE = Assignment_SunishRam_Kanini/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thedivinesparks.newapp.Assignment-SunishRam-Kanini";
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.app1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,18 +836,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XKU3TFWM83;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment_SunishRam_Kanini/Info.plist;
+				INFOPLIST_FILE = Assignment_SunishRam_Kanini/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thedivinesparks.newapp.Assignment-SunishRam-Kanini";
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.app1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
