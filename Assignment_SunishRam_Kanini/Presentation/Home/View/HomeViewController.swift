@@ -9,12 +9,11 @@ import UIKit
 import Combine
 
 class HomeViewController: UIViewController {
-    
-    
-    
     @IBOutlet weak var tblHome: UITableView!
+    
     let viewModel = HomeViewModel()
     private var cancellables = Set<AnyCancellable>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,6 +22,7 @@ class HomeViewController: UIViewController {
         viewModel.retrievePersonInfo()
         bindViewModel()
     }
+    
     private func bindViewModel() {
         viewModel.$person
             .receive(on: DispatchQueue.main)
@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
             }
             .store(in: &cancellables)
     }
+    
     @IBAction func didTapCreateNewPerson(_ sender: UIBarButtonItem) {
         didTapAddNewPerson()
     }

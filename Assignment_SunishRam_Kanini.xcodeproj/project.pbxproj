@@ -36,7 +36,6 @@
 		C78494732D1180EA0059C990 /* CDPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494712D1180EA0059C990 /* CDPerson+CoreDataClass.swift */; };
 		C78494742D1180EA0059C990 /* CDPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494722D1180EA0059C990 /* CDPerson+CoreDataProperties.swift */; };
 		C78494772D11876A0059C990 /* AddPersonValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494762D1187690059C990 /* AddPersonValidation.swift */; };
-		C784947F2D1190930059C990 /* BaseClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784947E2D1190930059C990 /* BaseClassVC.swift */; };
 		C784953E2D119B270059C990 /* UITableViewCellExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784948B2D119B260059C990 /* UITableViewCellExtended.swift */; };
 		C78495572D119B270059C990 /* UIViewBorderWidthAndColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494A92D119B260059C990 /* UIViewBorderWidthAndColor.swift */; };
 		C78495582D119B270059C990 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78494AA2D119B260059C990 /* UIViewControllerExtension.swift */; };
@@ -104,7 +103,6 @@
 		C78494712D1180EA0059C990 /* CDPerson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPerson+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		C78494722D1180EA0059C990 /* CDPerson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPerson+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		C78494762D1187690059C990 /* AddPersonValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonValidation.swift; sourceTree = "<group>"; };
-		C784947E2D1190930059C990 /* BaseClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassVC.swift; sourceTree = "<group>"; };
 		C784948B2D119B260059C990 /* UITableViewCellExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtended.swift; sourceTree = "<group>"; };
 		C78494A92D119B260059C990 /* UIViewBorderWidthAndColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorderWidthAndColor.swift; sourceTree = "<group>"; };
 		C78494AA2D119B260059C990 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 			children = (
 				C7086EAA2D12C35100288CA4 /* Common.swift */,
 				C78495CA2D119CF50059C990 /* SharedClass.swift */,
-				C784947E2D1190930059C990 /* BaseClassVC.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -231,7 +228,7 @@
 		C77341572D11389F009E9021 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				C77341742D113FAC009E9021 /* Controllers */,
+				C77341742D113FAC009E9021 /* Storyboard */,
 				C78F486A2D12665400C0B0F8 /* Home */,
 				C78F48692D12664400C0B0F8 /* Splite */,
 			);
@@ -320,12 +317,12 @@
 			path = ManagePersonDetails;
 			sourceTree = "<group>";
 		};
-		C77341742D113FAC009E9021 /* Controllers */ = {
+		C77341742D113FAC009E9021 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
 				C77341292D113762009E9021 /* Main.storyboard */,
 			);
-			path = Controllers;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		C784946A2D1171A90059C990 /* PersonManager */ = {
@@ -600,7 +597,6 @@
 				C773417A2D11400F009E9021 /* PersonViewModel.swift in Sources */,
 				C70DE49A2D129C8B006B0CEF /* SplitViewController.swift in Sources */,
 				C78495CB2D119CF50059C990 /* SharedClass.swift in Sources */,
-				C784947F2D1190930059C990 /* BaseClassVC.swift in Sources */,
 				C78F486E2D12673C00C0B0F8 /* HomeViewModel.swift in Sources */,
 				C72282432D11AB09009D0FB0 /* UIButtonGradiant.swift in Sources */,
 				C77341242D113762009E9021 /* AppDelegate.swift in Sources */,
@@ -812,7 +808,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -840,7 +836,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

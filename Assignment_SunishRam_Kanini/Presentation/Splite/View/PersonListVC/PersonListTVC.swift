@@ -22,6 +22,6 @@ class PersonListTVC: UITableViewCell {
         lblName.text    = String.getString(personData?.name)
         lblGender.text  = String.getString(personData?.gender)
         lblDOB.text     = String.getString(personData?.dob)
-        lblAge.text    = String.getString(personData?.age)
+        lblAge.text     = String.getString(personData?.age)  
     }
 }

@@ -19,7 +19,11 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-       return 200
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 200
+        }else{
+            return 110
+        }
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
             if editingStyle == .delete {
@@ -33,7 +37,7 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate {
 }
 extension HomeViewController
 {
-    func passViewDataToSliptView(_ index : IndexPath , _ person : [Person]?)
+   private func passViewDataToSliptView(_ index : IndexPath , _ person : [Person]?)
     {
         HomeViewController.configureSplitViewController(
             on: self, storyboardName: CommonStringValue.main,
@@ -42,6 +46,7 @@ extension HomeViewController
             detailType: ManagePersonDetailsVC.self,
             configureMaster: { masterVC in
                 masterVC.viewmodel.person = person?[index.row]
+                masterVC.viewmodel.isUpdate = true
             },
             configureDetail: { detailVC in
                 detailVC.viewModel.person = person?[index.row]
@@ -49,8 +54,7 @@ extension HomeViewController
             }
         )
     }
-    func didTapAddNewPerson()
-    {
+    func didTapAddNewPerson() {
         presentSplitViewController(
             on: self, storyboardName: CommonStringValue.main,
             splitVCIdentifier: SplitViewController.storyboardId(),

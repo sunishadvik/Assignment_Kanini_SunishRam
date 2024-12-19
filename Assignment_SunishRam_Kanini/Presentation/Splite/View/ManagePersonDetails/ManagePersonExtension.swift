@@ -11,10 +11,10 @@ import UIKit
 extension ManagePersonDetailsVC {
      func displayPersonDetails() {
          if viewModel.isUpdate{
-            txtFieldName.text   = viewModel.person?.name ?? ""
-            txtFieldAge.text    = viewModel.person?.age ?? ""
-            txtFieldDob.text    = viewModel.person?.dob ?? ""
-            txtFieldGender.text = viewModel.person?.gender ?? ""
+             txtFieldName.text   = String.getString(viewModel.person?.name)
+            txtFieldAge.text    = String.getString(viewModel.person?.age)
+            txtFieldDob.text    = String.getString(viewModel.person?.dob)
+            txtFieldGender.text = String.getString(viewModel.person?.gender)  
         }
     }
     func persistPersonDetails() {
@@ -32,7 +32,7 @@ extension ManagePersonDetailsVC {
                     }
                 }
             } else if let error = validationResult.error {
-                ManagePersonDetailsVC.showOkAlert(on: self, title: "Person", message: "\(error.localizedDescription)")
+                ManagePersonDetailsVC.showOkAlert(on: self, title: CommonStringValue.appName, message: "\(error.localizedDescription)")
             }
         }
     }
@@ -45,7 +45,7 @@ extension ManagePersonDetailsVC {
     func handleDateSelectionAndAge(){
         DatePickerHelper.showDatePicker(on: self.view, completion: { [weak self] selectedDate,calculatedAge  in
             self?.txtFieldDob.text = String.getString(selectedDate)
-            self?.txtFieldAge.text = String.getString(calculatedAge) + " yr"
+            self?.txtFieldAge.text = String.getString(calculatedAge) + CommonStringValue.year
         })
     }
 }

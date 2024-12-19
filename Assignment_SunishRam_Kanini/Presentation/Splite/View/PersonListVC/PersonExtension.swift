@@ -11,7 +11,7 @@ import UIKit
 
 extension PersonListVC {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return viewmodel.isUpdate ? 1 : 0
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: PersonListTVC.cellIdentifier(), for: indexPath) as! PersonListTVC
@@ -20,6 +20,10 @@ extension PersonListVC {
      }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return 240
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 240
+        }else{
+            return 140
+        }
     }
 }

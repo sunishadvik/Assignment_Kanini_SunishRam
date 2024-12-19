@@ -10,18 +10,16 @@ import UIKit
  
 struct Constant
 {
-    static let kSharedInstance             = SharedClass.sharedInstance
-    static let kSharedUserDefaults         = UserDefaults.standard
-    static let kScreenWidth                = UIScreen.main.bounds.size.width
-    static let kScreenHeight               = UIScreen.main.bounds.size.height
-    static let genderTypes               = ["Male","Female","Other"]
-    static let kSharedAppDelegate          = UIApplication.shared.delegate as! AppDelegate
-    static let kSharedSceneDelegate        = UIApplication.shared.connectedScenes.first!.delegate as! SceneDelegate
+    static let kSharedInstance    = SharedClass.sharedInstance
+    static let kScreenWidth       = UIScreen.main.bounds.size.width
+    static let kScreenHeight      = UIScreen.main.bounds.size.height
+    static let genderTypes        = ["Male","Female","Other"]
 }
-
 struct CommonStringValue
 {
-    static let main = "Main"
+    static let main   = "Main"
+    static let year   = " yr"
+    static let appName = "Assignment"
 }
 
 extension UIViewController
@@ -32,7 +30,6 @@ extension UIViewController
         alert.addAction(okAction)
         viewController.present(alert, animated: true, completion: nil)
     }
-  
    static func configureSplitViewController<T: UIViewController, U: UIViewController>( on viewController: UIViewController,
         storyboardName: String,
         splitVCIdentifier: String,
@@ -55,13 +52,12 @@ extension UIViewController
         splitVC.modalPresentationStyle = presentationStyle
         viewController.present(splitVC, animated: true)
     }
-    
     func presentSplitViewController<T: UISplitViewController>(on viewController: UIViewController,
         storyboardName: String,
         splitVCIdentifier: String,
         splitVCType: T.Type,
         presentationStyle: UIModalPresentationStyle = .fullScreen
-    ) {
+    ){
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
         
         guard let splitVC = storyboard.instantiateViewController(withIdentifier: splitVCIdentifier) as? T else {

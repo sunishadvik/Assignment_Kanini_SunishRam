@@ -55,12 +55,10 @@ class RSPickerView: UIView
   {
     super.init(frame: frame)
   }
-  
   required init?(coder aDecoder: NSCoder)
   {
     fatalError("init(coder:) has not been implemented")
   }
- 
   private func getButton(xValue: CGFloat, buttonTitle title: String) -> UIButton
   {
     let button = UIButton(type: .custom)

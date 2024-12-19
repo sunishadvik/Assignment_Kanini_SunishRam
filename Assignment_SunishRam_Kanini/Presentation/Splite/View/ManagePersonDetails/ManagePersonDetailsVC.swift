@@ -12,11 +12,14 @@ class ManagePersonDetailsVC: UIViewController {
     @IBOutlet weak var txtFieldGender: UITextField!
     @IBOutlet weak var txtFieldDob: UITextField!
     @IBOutlet weak var txtFieldAge: UITextField!
+    
     var viewModel : PersonViewModel = PersonViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         displayPersonDetails()
     }
+    
     @IBAction func handleGenderTap(_ sender: UIButton) {
         setGenderOption()
     }
